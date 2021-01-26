@@ -24,8 +24,10 @@ if m == 1:
     second = int(input("두번쨰 수를 입력하세요 : "))
 
     # tan : 예원
-    tan = tan(first)
-    tan2 = tan(second)
+    tan = math.tan(first)
+    tan2 = math.tan(second)
+
+    print("tan 결과값 :", tan + tan2)
     
     
     print("결과값 :", first + second)
