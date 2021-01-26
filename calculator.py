@@ -29,3 +29,10 @@ if m == 5:
     second = int(input("두번쨰 수를 입력하세요 : "))
 
     print("결과값 :", first % second)
+
+if m == 3:
+    first = int(input("첫번째 수를 입력하세요 : "))
+
+    second = int(input("두번쨰 수를 입력하세요 : "))
+
+    print("결과값 :", first / second)
