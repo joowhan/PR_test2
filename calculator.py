@@ -13,6 +13,7 @@
 # 파이값 출력 11 : 하람
 # 자연 상수 값 출력 12 : 하은
 
+import math
 
 m = int(input("모드를 입력하세요 : "))
 
@@ -29,3 +30,6 @@ if m == 5:
     second = int(input("두번쨰 수를 입력하세요 : "))
 
     print("결과값 :", first % second)
+
+if m == 11:
+    print(math.pi)
