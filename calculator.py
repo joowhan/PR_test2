@@ -17,19 +17,43 @@ import math
 
 m = int(input("모드를 입력하세요 : "))
 
-if m == 1:
+if m == 4:
     first = int(input("첫번째 수를 입력하세요 : "))
-
     second = int(input("두번쨰 수를 입력하세요 : "))
+
+    # muliplication: 요한
+    mul = first * second
 
     print("결과값 :", first + second)
 
+if m == 10:
+    tan = math.tan(first)
+    tan2 = math.tan(second)
+
+    print("tan 결과값 :", tan + tan2)  
+   
 if m == 5:
+    first = int(input("첫번째 수를 입력하세요 : "))
+
+    second = int(input("두번째 수를 입력하세요 : "))
+
+    print("결과값 :", first % second)
+
+
+if m == 11:
+    print(math.pi)
+
+if m == 7:
+    first = int(input("첫번째 수를 입력하세요 : "))
+
+    second = int(input("두번째 수를 입력하세요 : "))
+
+    print("결과값 :", first * second)
+
+if m == 3:
     first = int(input("첫번째 수를 입력하세요 : "))
 
     second = int(input("두번쨰 수를 입력하세요 : "))
 
-    print("결과값 :", first % second)
+    print("결과값 :", first / second)
 
-if m == 11:
-    print(math.pi)
