@@ -20,15 +20,16 @@ m = int(input("모드를 입력하세요 : "))
 
 if m == 1:
     first = int(input("첫번째 수를 입력하세요 : "))
-
     second = int(input("두번쨰 수를 입력하세요 : "))
+    
+    print("결과값 :", first + second)
 
-    # tan : 예원
+if m == 10:
     tan = math.tan(first)
     tan2 = math.tan(second)
 
     print("tan 결과값 :", tan + tan2)
     
     
-    print("결과값 :", first + second)
+    
 
